@@ -5,11 +5,12 @@ import pizza.HawaiPizza;
 
 public class Main {
     public static void main(String[] args) {
-        CapriciosaPizza capriciosaPizza = new CapriciosaPizza();
-        HawaiPizza hawaiPizza = new HawaiPizza();
+//        CapriciosaPizza capriciosaPizza = new CapriciosaPizza();
+//        HawaiPizza hawaiPizza = new HawaiPizza();
+//
+//        capriciosaPizza.showPizzaInfo();
+//        hawaiPizza.showPizzaInfo();
 
-        capriciosaPizza.showPizzaInfo();
-        hawaiPizza.showPizzaInfo();
     }
 
 }

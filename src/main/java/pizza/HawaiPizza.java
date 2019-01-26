@@ -3,14 +3,18 @@ package pizza;
 import java.util.Arrays;
 import java.util.List;
 
-public class HawaiPizza {
+public class HawaiPizza extends Pizza {
     private double cost;
     private List<String> components;
 
-    public HawaiPizza() {
-        components = Arrays.asList("Cheese", "Ham", "Pineapple");
-        cost = 28.00;
+    public HawaiPizza(double cost, List<String> components) {
+        super(cost, components);
     }
+
+//    public HawaiPizza() {
+//        components = Arrays.asList("Cheese", "Ham", "Pineapple");
+//        cost = 28.00;
+//    }
 
     public double getCost() {
         return cost;
